@@ -1,0 +1,14 @@
+{
+  "name": "smartpark-ai",
+  "version": "1.0.0",
+  "description": "Smart Park AI — Parking Management System",
+  "private": true,
+  "scripts": {
+    "install:all":  "npm install --prefix server && npm install --prefix client",
+    "seed":         "cd server && node seed.js",
+    "dev:server":   "cd server && npm run dev",
+    "dev:client":   "cd client && npm run dev",
+    "start:server": "cd server && npm start",
+    "build:client": "cd client && npm run build"
+  }
+}
