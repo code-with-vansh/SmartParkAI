@@ -13,10 +13,6 @@ env/
 
 # Environment variables
 .env
-.env.*
-
-# Frontend build
-client/dist/
 
 # Logs
 *.log
